@@ -22,4 +22,4 @@ One9x is an non-profile organization, started with aim to develop the open sourc
 ## Contacts
 Feel free to reachout to us at:
 - Twitter: [@one9x_offical](https://twitter.com/one9x_offical)
-- mail: [contact@one9x.com](mailto:contact@one9x.com)
+- mail: [contact@one9x.org](mailto:contact@one9x.org)
