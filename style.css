@@ -133,7 +133,7 @@ footer {
 
 @media screen and (max-width:1024px) {
     .heading {
-        width: 90vw;
+        width: 95vw;
         height: 26vw;
     }
     .image {
@@ -179,6 +179,7 @@ footer {
         font-size: 5vw;
     }
     .projects{
+        width: 95vw;
         height: 100vw;
         margin-top: 10vw;
     }
@@ -208,11 +209,9 @@ footer {
     .work2 > span{
         font-size: 7vw;
     }
-    .work2 > a{
-        text-decoration: none;
-        color:maroon ;
+    .footer{
+        width: 95vw;
     }
-    
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
     .projects{
