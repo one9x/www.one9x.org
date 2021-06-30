@@ -1,9 +1,10 @@
 .heading {
     width: 99vw;
     height: 7vw;
-    display: block;;
-
+    display: block;
 }
+icons{
+    color:black;
 ul{
     margin-top: 2%;
     width: 10%;
