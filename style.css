@@ -1,11 +1,18 @@
 .heading {
-    width: 99vw;
+    width: 96vw;
     height: 7vw;
     display: block;;
 
 }
+#icons{
+    margin: 2%;
+    width: 70%;
+    float: right;
+    text-align: right;
+}
 .icons{
     color: black;
+    margin-RIGHT:1% ;
 }
 ul{
     margin-top: 2%;
@@ -38,20 +45,30 @@ li > a{
 }
 
 .main {
-    width: 99vw;
+    width: 96vw;
     height: 35vw;
     vertical-align: middle;
 }
 
 .main-box {
-    width: 48%;
+    width: 47%;
     float: left;
     text-align: center;
+    padding-top: 5%;
+    position: relative;
 }
-
+.text{
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Alex Brush';    
+    font-weight: BOLD;
+    padding-top: 5%;
+}
 .main-title {
     border: none;
-    font-size: 300px;
+    font-size: 200px;
     font-family: 'Big Shoulders Stencil Display';
     color: darkcyan;
 
@@ -61,40 +78,42 @@ li > a{
     font-size: xx-large;
     text-align: center;
 }
-
-
-
 .bg-block {
-    width: 48%;
+    width: 47%;
+    height: 95%;
     float: right;
+    text-align: center;
 }
 
 .background {
-    width: 100%;
-    height: 650px;
+    width: 70%;
+    height: 95%;
+    margin-top: 3%;
 }
 .projects{
-    width: 99vw;
-    height: 200px;
+    width: 96vw;
+    height: 20vw;
     margin-bottom: 5%;
     text-align: center;
 }
 .works {
-    font-size: 70px;
-    text-align: left;
+    font-size: 40px;
+    font-family: 'Asset';
+    text-align:center;
+    vertical-align: middle;
     margin-top: 3%;
     margin-left: 2%;
     margin-bottom: 1%;
 }
-
 .work1{
     width: 45%;
-    height: 150px;
+    height: 85%;
     padding-top: 2%;
     padding-left: 2%;
+    padding-bottom: 2%;
     font-size: 30px;
     float: right;
-     box-shadow: 5px 10px 18px #888888;
+    box-shadow: 10px 5px 18px #888888;
 }
 .work1 > a{
     color:#aee051;
@@ -104,13 +123,15 @@ li > a{
     font-size: 25px;
 }
 .work2{
-    height: 150px;
-    width: 47%;
+    height: 85%;
+    width: 45%;
     padding-top: 2%;
-    padding-left: 2%;   
+    margin-LEFT: 2%;
+    padding: 2%;   
     font-size: 25px;
+    text-align: center;
     float: left;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 10px 5px 18px #888888;
 }        
 .work2 > span{
     font-size: 30px;
@@ -121,7 +142,7 @@ li > a{
 }
 footer {
     text-align: center;
-    width: 99vw;
+    width: 96vw;
     height: 3vw;
 }
 .end{
