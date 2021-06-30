@@ -133,7 +133,7 @@ footer {
 
 @media screen and (max-width:1024px) {
     .heading {
-        width: 99vw;
+        width: 96vw;
         height: 26vw;
     }
     .image {
@@ -213,4 +213,9 @@ footer {
         color:maroon ;
     }
     
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .projects{
+        height: 105vw;
+    }
 }
