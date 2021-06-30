@@ -1,49 +1,27 @@
 .heading {
-    width: 96vw;
+    width: 97vw;
     height: 7vw;
     display: block;;
-
+    position: relative;
+    overflow-y: auto;
 }
 #icons{
-    margin: 2%;
-    width: 70%;
+    margin: 2.5vw;
+    width: 40vw;
     float: right;
     text-align: right;
 }
 .icons{
     color: black;
-    margin-RIGHT:1% ;
-}
-ul{
-    margin-top: 2%;
-    width: 10%;
-    float: right;
-
-}
-ul li{
-    display: inline-block;
-    margin-right: 5%;
-}
-li > a{
-    color: black ;
+    margin-RIGHT:1%;
+    font-size: 3vw;
+    position: relative;
 }
 .image {
     margin: 10px;
-    width: 5vw;
+    width: 5.7vw;
     vertical-align: middle;
 }
-
-.brief {
-    vertical-align: middle;
-    display: inline;
-    font-size: 50px;
-    font-family: 'Cairo';
-    font-weight: bold;
-}
-.brief > span{
-    color: darkcyan;
-}
-
 .main {
     width: 96vw;
     height: 35vw;
@@ -61,21 +39,21 @@ li > a{
     width: 90%;
     position: absolute;
     text-align: center;
-    font-size: 37px;
+    font-size: 2.6vw;
     font-family: 'Alex Brush';    
     font-weight: BOLD;
     padding-top: 5%;
 }
 .main-title {
     border: none;
-    font-size: 200px;
+    font-size: 14vw;
     font-family: 'Big Shoulders Stencil Display';
     color: darkcyan;
 
 }
 
 .description {
-    font-size: xx-large;
+    font-size: 2vw;
     text-align: center;
 }
 .bg-block {
@@ -86,55 +64,54 @@ li > a{
 }
 
 .background {
-    width: 70%;
-    height: 95%;
-    margin-top: 3%;
+    width: 31vw;
+    height: 31vw;
+    margin-top: 2vw;
 }
 .projects{
     width: 96vw;
-    height: 20vw;
-    margin-bottom: 5%;
+    height: 25vw;
+    margin-bottom: 2vw;
     text-align: center;
 }
 .works {
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Asset';
     text-align:center;
     vertical-align: middle;
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 1%;
+    margin-top: 2vw;
+    overflow-y: auto;
 }
 .work1{
-    width: 45%;
-    height: 85%;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    font-size: 30px;
+    width: 45vw;
+    height: 20vw;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 1.7vw;
     float: right;
     box-shadow: 10px 5px 18px #888888;
 }
-.work1 > a{
+.work1 > span a{
     color:#aee051;
     text-decoration: none;
 }
 .work1 > span{
-    font-size: 25px;
+    font-size: 2.3vw;
 }
 .work2{
-    height: 85%;
-    width: 45%;
-    padding-top: 2%;
-    margin-LEFT: 2%;
-    padding: 2%;   
-    font-size: 25px;
+    height: 20vw;
+    width: 45vw;
+    padding-top: 0.5vw;
+    margin-LEFT: 0.5vw;
+    padding: 0.5vw;   
+    font-size: 1.7vw;
     text-align: center;
     float: left;
     box-shadow: 10px 5px 18px #888888;
 }        
 .work2 > span{
-    font-size: 30px;
+    font-size: 2.3vw;
 }
 .work2 > a{
     text-decoration: none;
@@ -143,12 +120,97 @@ li > a{
 footer {
     text-align: center;
     width: 96vw;
-    height: 3vw;
+    height: 1vw;
 }
 .end{
-    margin-top: 2%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 .end > a{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width:1024px) {
+    .heading {
+        width: 99vw;
+        height: 26vw;
+    }
+    .image {
+        margin: 10px;
+        width: 20vw;
+    }
+    #icons{
+        margin: 6vw;
+        width: 30vw;
+        margin-top: 15vw;
+        float: right;
+    }
+    .icons{
+        margin-right: 2%;
+        font-size: 7vw;
+    }
+    .main{
+        height: 70vw;
+    }
+    .bg-block {
+        z-index: -1;
+        width: 70vw;
+        display:block;
+        position: absolute;
+    }
+    .background{
+        width: 67vw;
+        height: 67vw;
+        margin-left: 33vw;
+        position: relative;
+    }
+    .main-box {
+        width: 70vw;
+    }
+    .text{
+        width: 60vw;
+        font-size: 6vw;
+    }
+    .main-title {
+        font-size: 30vw;
+    }
+    .description {
+        font-size: 5vw;
+    }
+    .projects{
+        height: 100vw;
+        margin-top: 10vw;
+    }
+    .works{
+        font-size: 7vw;
+    }
+    .work1{
+        width: 90vw;
+        height: 47vw;
+        font-size: 4vw;
+        float: none;
+    }
+    .work1 > span a{
+        color:#aee051;
+        text-decoration: none;
+    }
+    .work1 > span{
+        font-size: 7vw;
+    }
+    .work2{
+        height: 47vw;
+        width: 90vw;
+        margin-top: 4vw;
+        margin-left: 0;
+        font-size: 4vw;
+    }        
+    .work2 > span{
+        font-size: 7vw;
+    }
+    .work2 > a{
+        text-decoration: none;
+        color:maroon ;
+    }
+    
 }
