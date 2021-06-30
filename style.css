@@ -191,8 +191,9 @@ footer {
     }
     .projects{
         width: 95vw;
-        height: 115vw;
+        height: 125vw;
         margin-top: 10vw;
+        margin-left: 1vw;
     }
     .works{
         font-size: 15vw;
@@ -205,7 +206,7 @@ footer {
         height: 47vw;
         border-radius: 15vw;
         border: 2px dotted darkcyan;
-        padding: 3vw;
+        padding: 2vw;
         font-size: 4vw;
         margin-right: 0;
         float: none;
@@ -222,7 +223,7 @@ footer {
         width: 90vw;
         border-radius: 15vw;
         border: 2px dotted darkcyan;
-        padding: 3vw;
+        padding: 2vw;
         margin-top: 4vw;
         margin-left: 0;
         font-size: 4vw;
