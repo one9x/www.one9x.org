@@ -70,27 +70,36 @@
 }
 .projects{
     width: 96vw;
-    height: 25vw;
+    height: 28vw;
     margin-bottom: 2vw;
     text-align: center;
 }
-.works {
+.pointer{
     font-size: 3vw;
-    font-family: 'Asset';
+    margin-top: -1.56vw;
+    margin-right: 12vw;
+    margin-left: 10.5vw;
+    color:darkcyan;
+}
+.works {
+    font-size: 6vw;
+    font-family: 'Almendra SC';
     text-align:center;
     vertical-align: middle;
-    margin-top: 2vw;
+    margin-top: 1vw;
     overflow-y: auto;
+    color:darkcyan;
 }
 .work1{
     width: 45vw;
     height: 20vw;
-    padding-top: 0.5vw;
-    padding-left: 0.5vw;
-    padding-bottom: 0.5vw;
+    border:3px dotted darkcyan;
+    border-radius: 20vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
     font-size: 1.7vw;
     float: right;
-    box-shadow: 10px 5px 18px #888888;
+    box-shadow: 20px 15px 18px #888888;
 }
 .work1 > span a{
     color:#aee051;
@@ -102,13 +111,14 @@
 .work2{
     height: 20vw;
     width: 45vw;
-    padding-top: 0.5vw;
-    margin-LEFT: 0.5vw;
-    padding: 0.5vw;   
+    border-radius: 20vw;
+    border:3px dotted darkcyan;
+    padding-top: 3vw;
+    margin-LEFT: 2vw;   
     font-size: 1.7vw;
     text-align: center;
     float: left;
-    box-shadow: 10px 5px 18px #888888;
+    box-shadow: 20px 15px 18px #888888;
 }        
 .work2 > span{
     font-size: 2.3vw;
@@ -134,7 +144,7 @@ footer {
 @media screen and (max-width:1024px) {
     .heading {
         width: 95vw;
-        height: 26vw;
+        height: 27vw;
     }
     .image {
         margin: 10px;
@@ -142,13 +152,13 @@ footer {
     }
     #icons{
         margin: 6vw;
-        width: 30vw;
+        width: 40vw;
         margin-top: 15vw;
         float: right;
     }
     .icons{
-        margin-right: 2%;
-        font-size: 7vw;
+        vertical-align: middle;
+        font-size: 8vw;
     }
     .main{
         height: 70vw;
@@ -176,6 +186,7 @@ footer {
         font-size: 30vw;
     }
     .description {
+        margin-left: 2vw;
         font-size: 5vw;
     }
     .projects{
@@ -190,6 +201,7 @@ footer {
         width: 90vw;
         height: 47vw;
         font-size: 4vw;
+        margin-right: 0;
         float: none;
     }
     .work1 > span a{
