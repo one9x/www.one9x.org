@@ -133,7 +133,7 @@ footer {
 
 @media screen and (max-width:1024px) {
     .heading {
-        width: 96vw;
+        width: 90vw;
         height: 26vw;
     }
     .image {
