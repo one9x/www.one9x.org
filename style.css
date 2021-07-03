@@ -1,0 +1,242 @@
+.heading {
+    width: 97vw;
+    height: 7vw;
+    display: block;;
+    position: relative;
+    overflow-y: auto;
+}
+#icons{
+    margin: 2.5vw;
+    width: 40vw;
+    float: right;
+    text-align: right;
+}
+.icons{
+    color: black;
+    margin-RIGHT:1%;
+    font-size: 3vw;
+    position: relative;
+}
+.image {
+    margin: 10px;
+    width: 5.7vw;
+    vertical-align: middle;
+}
+.main {
+    width: 96vw;
+    height: 35vw;
+    vertical-align: middle;
+}
+
+.main-box {
+    width: 47%;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+}
+.text{
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    font-size: 2.6vw;
+    font-family: 'Alex Brush';    
+    font-weight: BOLD;
+    padding-top: 5%;
+}
+.main-title {
+    border: none;
+    font-size: 14vw;
+    font-family: 'Big Shoulders Stencil Display';
+    color: darkcyan;
+
+}
+
+.description {
+    font-size: 2vw;
+    text-align: center;
+}
+.bg-block {
+    width: 47%;
+    height: 95%;
+    float: right;
+    text-align: center;
+}
+
+.background {
+    width: 31vw;
+    height: 31vw;
+    margin-top: 2vw;
+}
+.projects{
+    width: 96vw;
+    height: 28vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+.pointer{
+    font-size: 3vw;
+    margin-top: -1.56vw;
+    margin-right: 12vw;
+    margin-left: 10.5vw;
+    color:darkcyan;
+}
+.works {
+    font-size: 6vw;
+    font-family: 'Almendra SC';
+    text-align:center;
+    vertical-align: middle;
+    margin-top: 1vw;
+    overflow-y: auto;
+    color:darkcyan;
+}
+.work1{
+    width: 45vw;
+    height: 20vw;
+    border:3px dotted darkcyan;
+    border-radius: 20vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    font-size: 1.7vw;
+    float: right;
+    box-shadow: 20px 15px 18px #888888;
+}
+.work1 > span a{
+    color:#aee051;
+    text-decoration: none;
+}
+.work1 > span{
+    font-size: 2.3vw;
+}
+.work2{
+    height: 20vw;
+    width: 45vw;
+    border-radius: 20vw;
+    border:3px dotted darkcyan;
+    padding-top: 3vw;
+    margin-LEFT: 2vw;   
+    font-size: 1.7vw;
+    text-align: center;
+    float: left;
+    box-shadow: 20px 15px 18px #888888;
+}        
+.work2 > span{
+    font-size: 2.3vw;
+}
+.work2 > a{
+    text-decoration: none;
+    color:maroon ;
+}
+footer {
+    text-align: center;
+    width: 96vw;
+    height: 1vw;
+}
+.end{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.end > a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1024px) {
+    .heading {
+        width: 95vw;
+        height: 27vw;
+    }
+    .image {
+        margin: 10px;
+        width: 20vw;
+    }
+    #icons{
+        margin: 6vw;
+        width: 40vw;
+        margin-top: 15vw;
+        float: right;
+    }
+    .icons{
+        vertical-align: middle;
+        font-size: 8vw;
+    }
+    .main{
+        height: 70vw;
+    }
+    .bg-block {
+        z-index: -1;
+        width: 70vw;
+        display:block;
+        position: absolute;
+    }
+    .background{
+        width: 67vw;
+        height: 67vw;
+        margin-left: 33vw;
+        position: relative;
+    }
+    .main-box {
+        width: 70vw;
+    }
+    .text{
+        width: 60vw;
+        font-size: 6vw;
+    }
+    .main-title {
+        font-size: 30vw;
+    }
+    .description {
+        margin-left: 2vw;
+        font-size: 5vw;
+    }
+    .projects{
+        width: 95vw;
+        height: 125vw;
+        margin-top: 10vw;
+        margin-left: 1vw;
+    }
+    .works{
+        font-size: 15vw;
+    }
+    .pointer{
+        font-size: 10vw;
+    }
+    .work1{
+        width: 90vw;
+        height: 47vw;
+        border-radius: 15vw;
+        border: 2px dotted darkcyan;
+        padding: 2vw;
+        font-size: 4vw;
+        margin-right: 0;
+        float: none;
+    }
+    .work1 > span a{
+        color:#aee051;
+        text-decoration: none;
+    }
+    .work1 > span{
+        font-size: 7vw;
+    }
+    .work2{
+        height: 47vw;
+        width: 90vw;
+        border-radius: 15vw;
+        border: 2px dotted darkcyan;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-left: 0;
+        font-size: 4vw;
+    }        
+    .work2 > span{
+        font-size: 7vw;
+    }
+    .footer{
+        width: 95vw;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .projects{
+        height: 105vw;
+    }
+}
