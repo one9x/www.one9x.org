@@ -1,12 +1,12 @@
+
 .heading {
     width: 97vw;
-    height: 7vw;
     display: block;;
     position: relative;
     overflow-y: auto;
 }
 #icons{
-    margin: 2.5vw;
+    padding: 2vw;
     width: 40vw;
     float: right;
     text-align: right;
@@ -18,7 +18,7 @@
     position: relative;
 }
 .image {
-    margin: 10px;
+    padding: 8px;
     width: 5.7vw;
     vertical-align: middle;
 }
@@ -56,6 +56,11 @@
     font-size: 2vw;
     text-align: center;
 }
+
+.description > .title {
+    color: darkcyan
+}
+
 .bg-block {
     width: 47%;
     height: 95%;
@@ -77,8 +82,8 @@
 .pointer{
     font-size: 3vw;
     margin-top: -1.56vw;
-    margin-right: 12vw;
-    margin-left: 10.5vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
     color:darkcyan;
 }
 .works {
@@ -134,7 +139,7 @@ footer {
 }
 .end{
     margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
 }
 .end > a{
     text-decoration: none;
@@ -144,30 +149,34 @@ footer {
 @media screen and (max-width:1024px) {
     .heading {
         width: 95vw;
-        height: 27vw;
+        height: 19vw;
     }
     .image {
-        margin: 10px;
-        width: 20vw;
+        padding: 10px;
+        width: 12vw;
     }
     #icons{
-        margin: 6vw;
+        padding: 3vw;
         width: 40vw;
-        margin-top: 15vw;
         float: right;
     }
     .icons{
-        vertical-align: middle;
-        font-size: 8vw;
+        top: 4vw;
+        right: 0;
+        font-size: 6vw;
+    }
+    .text{
+        top: 2vw;
     }
     .main{
+        vertical-align: middle;
         height: 70vw;
     }
     .bg-block {
-        z-index: -1;
         width: 70vw;
         display:block;
         position: absolute;
+        visibility: hidden;
     }
     .background{
         width: 67vw;
@@ -176,10 +185,11 @@ footer {
         position: relative;
     }
     .main-box {
-        width: 70vw;
+        width: 95vw;   
     }
+
     .text{
-        width: 60vw;
+        width: 85vw;
         font-size: 6vw;
     }
     .main-title {
@@ -199,12 +209,12 @@ footer {
         font-size: 15vw;
     }
     .pointer{
-        font-size: 10vw;
+        visibility: hidden;
     }
     .work1{
         width: 90vw;
         height: 47vw;
-        border-radius: 15vw;
+        border-radius: 10vw;
         border: 2px dotted darkcyan;
         padding: 2vw;
         font-size: 4vw;
@@ -221,13 +231,16 @@ footer {
     .work2{
         height: 47vw;
         width: 90vw;
-        border-radius: 15vw;
+        border-radius: 10vw;
         border: 2px dotted darkcyan;
         padding: 2vw;
         margin-top: 4vw;
         margin-left: 0;
         font-size: 4vw;
-    }        
+    }    
+    .work2 > span a{
+        color: maroon;
+    }    
     .work2 > span{
         font-size: 7vw;
     }
