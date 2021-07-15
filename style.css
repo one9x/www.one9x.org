@@ -1,4 +1,6 @@
-
+.container{
+    margin: 10px;
+}
 .heading {
     width: 97vw;
     display: block;;
@@ -86,6 +88,10 @@
     margin-left: 11vw;
     color:darkcyan;
 }
+a{
+    text-decoration: none;
+    color: maroon;
+}
 .works {
     font-size: 6vw;
     font-family: 'Almendra SC';
@@ -95,42 +101,34 @@
     overflow-y: auto;
     color:darkcyan;
 }
-.work1{
+.work-head{
     width: 45vw;
     height: 20vw;
-    border:3px dotted darkcyan;
-    border-radius: 20vw;
+    border-radius: 5vw;
     padding-top: 3vw;
     padding-left: 2vw;
-    font-size: 1.7vw;
+    font-size: 2.5vw;
     float: right;
-    box-shadow: 20px 15px 18px #888888;
+    border: 2px solid darkcyan;
+    /*box-shadow: 20px 15px 18px #888888;*/
 }
-.work1 > span a{
-    color:#aee051;
-    text-decoration: none;
-}
-.work1 > span{
-    font-size: 2.3vw;
-}
-.work2{
-    height: 20vw;
-    width: 45vw;
-    border-radius: 20vw;
-    border:3px dotted darkcyan;
-    padding-top: 3vw;
-    margin-LEFT: 2vw;   
+.work-content{
+
     font-size: 1.7vw;
-    text-align: center;
-    float: left;
-    box-shadow: 20px 15px 18px #888888;
-}        
-.work2 > span{
-    font-size: 2.3vw;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 20px;
 }
-.work2 > a{
-    text-decoration: none;
-    color:maroon ;
+.work-footer{
+    padding-top: 10px;
+}
+.vartalap-color{
+    color:#aee051;
+}
+.work-margin{    
+    margin-left: 10px;
+
 }
 footer {
     text-align: center;
@@ -215,7 +213,6 @@ footer {
         width: 90vw;
         height: 47vw;
         border-radius: 10vw;
-        border: 2px dotted darkcyan;
         padding: 2vw;
         font-size: 4vw;
         margin-right: 0;
@@ -232,15 +229,11 @@ footer {
         height: 47vw;
         width: 90vw;
         border-radius: 10vw;
-        border: 2px dotted darkcyan;
         padding: 2vw;
         margin-top: 4vw;
         margin-left: 0;
         font-size: 4vw;
-    }    
-    .work2 > span a{
-        color: maroon;
-    }    
+    } 
     .work2 > span{
         font-size: 7vw;
     }
