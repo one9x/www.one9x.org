@@ -2,7 +2,6 @@
     margin: 10px;
 }
 .heading {
-    width: 97vw;
     display: block;;
     position: relative;
     overflow-y: auto;
@@ -25,8 +24,7 @@
     vertical-align: middle;
 }
 .main {
-    width: 96vw;
-    height: 35vw;
+    overflow: hidden;
     vertical-align: middle;
 }
 
@@ -48,14 +46,13 @@
 }
 .main-title {
     border: none;
-    font-size: 14vw;
+    font-size: 200px;
     font-family: 'Big Shoulders Stencil Display';
     color: darkcyan;
-
 }
 
 .description {
-    font-size: 2vw;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -77,23 +74,16 @@
 }
 .projects{
     width: 96vw;
-    height: 28vw;
+    overflow: hidden;
     margin-bottom: 2vw;
     text-align: center;
-}
-.pointer{
-    font-size: 3vw;
-    margin-top: -1.56vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    color:darkcyan;
 }
 a{
     text-decoration: none;
     color: maroon;
 }
-.works {
-    font-size: 6vw;
+.project-title {
+    font-size: 83px;
     font-family: 'Almendra SC';
     text-align:center;
     vertical-align: middle;
@@ -103,20 +93,21 @@ a{
 }
 .work{
     width: 45vw;
-    height: 18vw;
     border-radius: 5vw;
     float: right;
+    overflow: hidden;
     border: 2px solid darkcyan;
     margin-left: 5px;
     padding-top: 3vw;
     padding-left: 2vw;
+    padding-bottom: 15px;
 }
 .work-head{
-    font-size: 2.5vw;
+    font-size: 35px;
     /*box-shadow: 20px 15px 18px #888888;*/
 }
 .work-content{
-    font-size: 1.7vw;
+    font-size: 25px;
     text-align: justify;
     padding-top: 20px;
     padding-left: 2px;
@@ -142,11 +133,11 @@ a{
 footer {
     text-align: center;
     width: 96vw;
-    height: 1vw;
+    overflow: hidden;
 }
 .end{
-    margin-top: 2vw;
-    margin-bottom: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 20px;
 }
 .end > a{
     text-decoration: none;
@@ -154,9 +145,6 @@ footer {
 }
 
 @media screen and (max-width:1024px) {
-    .heading {
-        width: 95vw;
-    }
     .image {
         padding: 10px;
         width: 12vw;
@@ -176,19 +164,11 @@ footer {
     }
     .main{
         vertical-align: middle;
-        height: 70vw;
+        overflow: hidden;
     }
     .bg-block {
-        width: 70vw;
-        display:block;
-        position: absolute;
+        display: none;
         visibility: hidden;
-    }
-    .background{
-        width: 67vw;
-        height: 67vw;
-        margin-left: 33vw;
-        position: relative;
     }
     .main-box {
         width: 95vw;   
@@ -199,38 +179,33 @@ footer {
         font-size: 6vw;
     }
     .main-title {
-        font-size: 30vw;
+        font-size: 160px;
     }
     .description {
         margin-left: 2vw;
-        font-size: 5vw;
+        font-size: 22px;
     }
     .projects{
-        width: 95vw;
-        height: 140vw;
+        overflow: hidden;
         margin-top: 10vw;
         margin-left: 1vw;
     }
-    .works{
+    .project-title{
         font-size: 15vw;
-    }
-    .pointer{
-        visibility: hidden;
     }
     .work{
         width: 90%;
-        height: 60vw;
+        height: auto;
         margin-top: 10px;
         margin-left: 6px;
         float: none;
-        overflow-y: none;
     }
     .work-head{
-        font-size: 7.5vw;
+        font-size: 35px;
         /*box-shadow: 20px 15px 18px #888888;*/
     }
     .work-content{
-        font-size:5.4vw;
+        font-size:22px;
     }
     .work-footer{
         padding-top: 15px;
@@ -238,18 +213,7 @@ footer {
     .github, .vartalap-links, .links{
         font-size: 8vw;
     }
-    footer{
-        width: 95vw;
-    }
     .end{
-        margin-bottom: 10vw;
-    }
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .projects{
-        height: 145vw;
-    }
-    .work{
-        height: 60vw;
+        padding-bottom: 50px;
     }
 }
