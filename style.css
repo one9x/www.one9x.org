@@ -113,7 +113,6 @@ a{
     /*box-shadow: 20px 15px 18px #888888;*/
 }
 .work-content{
-
     font-size: 1.7vw;
     text-align: justify;
     padding-top: 20px;
@@ -129,6 +128,10 @@ a{
 .work-margin{    
     margin-left: 10px;
 
+}
+.links{
+    font-size:xx-large;
+    color: maroon;
 }
 footer {
     text-align: center;
@@ -147,7 +150,6 @@ footer {
 @media screen and (max-width:1024px) {
     .heading {
         width: 95vw;
-        height: 19vw;
     }
     .image {
         padding: 10px;
@@ -161,7 +163,7 @@ footer {
     .icons{
         top: 4vw;
         right: 0;
-        font-size: 6vw;
+        font-size: 8vw;
     }
     .text{
         top: 2vw;
@@ -199,7 +201,7 @@ footer {
     }
     .projects{
         width: 95vw;
-        height: 125vw;
+        height: 140vw;
         margin-top: 10vw;
         margin-left: 1vw;
     }
@@ -209,36 +211,27 @@ footer {
     .pointer{
         visibility: hidden;
     }
-    .work1{
-        width: 90vw;
-        height: 47vw;
-        border-radius: 10vw;
-        padding: 2vw;
-        font-size: 4vw;
-        margin-right: 0;
+    .work-head{
+        width: 85vw;
+        height: 60vw;
+        margin-top: 10px;
+        margin-left: 6px;
+        font-size: 7.5vw;
         float: none;
+        /*box-shadow: 20px 15px 18px #888888;*/
     }
-    .work1 > span a{
-        color:#aee051;
-        text-decoration: none;
+    .work-content{
+        font-size:5.4vw;
     }
-    .work1 > span{
-        font-size: 7vw;
+    .links{
+        font-size: 20px;
     }
-    .work2{
-        height: 47vw;
-        width: 90vw;
-        border-radius: 10vw;
-        padding: 2vw;
-        margin-top: 4vw;
-        margin-left: 0;
-        font-size: 4vw;
-    } 
-    .work2 > span{
-        font-size: 7vw;
-    }
-    .footer{
+    
+    footer{
         width: 95vw;
+    }
+    .end{
+        margin-bottom: 16vw;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
