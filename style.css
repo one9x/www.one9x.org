@@ -229,19 +229,21 @@ footer {
     .work-footer{
         padding-top: 15px;
     }
-    .links{
-        font-size: 20px;
+    .github, .vartalap-links, .links{
+        font-size: 7vw;
     }
-    
     footer{
         width: 95vw;
     }
     .end{
-        margin-bottom: 16vw;
+        margin-bottom: 10vw;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
     .projects{
-        height: 105vw;
+        height: 145vw;
+    }
+    .work-head{
+        height: 60vw;
     }
 }
