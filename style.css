@@ -101,15 +101,18 @@ a{
     overflow-y: auto;
     color:darkcyan;
 }
-.work-head{
+.work{
     width: 45vw;
     height: 18vw;
     border-radius: 5vw;
-    padding-top: 3vw;
-    padding-left: 2vw;
-    font-size: 2.5vw;
     float: right;
     border: 2px solid darkcyan;
+    margin-left: 5px;
+    padding-top: 3vw;
+    padding-left: 2vw;
+}
+.work-head{
+    font-size: 2.5vw;
     /*box-shadow: 20px 15px 18px #888888;*/
 }
 .work-content{
@@ -214,13 +217,16 @@ footer {
     .pointer{
         visibility: hidden;
     }
-    .work-head{
-        width: 85vw;
-        height: 62vw;
+    .work{
+        width: 90%;
+        height: 60vw;
         margin-top: 10px;
         margin-left: 6px;
-        font-size: 7.5vw;
         float: none;
+        overflow-y: none;
+    }
+    .work-head{
+        font-size: 7.5vw;
         /*box-shadow: 20px 15px 18px #888888;*/
     }
     .work-content{
@@ -230,7 +236,7 @@ footer {
         padding-top: 15px;
     }
     .github, .vartalap-links, .links{
-        font-size: 7vw;
+        font-size: 8vw;
     }
     footer{
         width: 95vw;
@@ -243,7 +249,7 @@ footer {
     .projects{
         height: 145vw;
     }
-    .work-head{
+    .work{
         height: 60vw;
     }
 }
