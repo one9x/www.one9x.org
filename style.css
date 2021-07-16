@@ -78,13 +78,6 @@
     margin-bottom: 2vw;
     text-align: center;
 }
-.pointer{
-    font-size: 3vw;
-    margin-top: -1.56vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    color:darkcyan;
-}
 a{
     text-decoration: none;
     color: maroon;
@@ -190,7 +183,7 @@ footer {
     }
     .description {
         margin-left: 2vw;
-        font-size: 30px;
+        font-size: 22px;
     }
     .projects{
         overflow: hidden;
@@ -199,9 +192,6 @@ footer {
     }
     .project-title{
         font-size: 15vw;
-    }
-    .pointer{
-        visibility: hidden;
     }
     .work{
         width: 90%;
@@ -215,7 +205,7 @@ footer {
         /*box-shadow: 20px 15px 18px #888888;*/
     }
     .work-content{
-        font-size:25px;
+        font-size:22px;
     }
     .work-footer{
         padding-top: 15px;
