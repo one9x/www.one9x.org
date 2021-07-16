@@ -103,7 +103,7 @@ a{
 }
 .work-head{
     width: 45vw;
-    height: 20vw;
+    height: 18vw;
     border-radius: 5vw;
     padding-top: 3vw;
     padding-left: 2vw;
@@ -120,7 +120,7 @@ a{
     padding-right: 20px;
 }
 .work-footer{
-    padding-top: 10px;
+    padding-top: 30px;
 }
 .vartalap-color{
     color:#aee051;
@@ -130,7 +130,7 @@ a{
 
 }
 .links{
-    font-size:xx-large;
+    font-size: 40px;
     color: maroon;
 }
 footer {
@@ -213,7 +213,7 @@ footer {
     }
     .work-head{
         width: 85vw;
-        height: 60vw;
+        height: 62vw;
         margin-top: 10px;
         margin-left: 6px;
         font-size: 7.5vw;
@@ -222,6 +222,9 @@ footer {
     }
     .work-content{
         font-size:5.4vw;
+    }
+    .work-footer{
+        padding-top: 15px;
     }
     .links{
         font-size: 20px;
