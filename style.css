@@ -129,9 +129,12 @@ a{
     margin-left: 10px;
 
 }
-.links{
+.vartalap-links{
     font-size: 40px;
-    color: maroon;
+}
+.github{
+    font-size: 40px;
+    color: black;
 }
 footer {
     text-align: center;
