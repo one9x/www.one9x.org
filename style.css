@@ -5,22 +5,21 @@
     display: block;;
     position: relative;
     overflow-y: auto;
+    padding: 5px;
 }
 #icons{
-    padding: 2vw;
-    width: 40vw;
+    width: 50%;
     float: right;
     text-align: right;
 }
 .icons{
     color: black;
-    margin-RIGHT:1%;
-    font-size: 3vw;
+    margin-right:1%;
+    font-size: 30px;
     position: relative;
 }
 .image {
-    padding: 8px;
-    width: 5.7vw;
+    width: 45px;
     vertical-align: middle;
 }
 .main {
@@ -145,20 +144,6 @@ footer {
 }
 
 @media screen and (max-width:1024px) {
-    .image {
-        padding: 10px;
-        width: 12vw;
-    }
-    #icons{
-        padding: 3vw;
-        width: 40vw;
-        float: right;
-    }
-    .icons{
-        top: 4vw;
-        right: 0;
-        font-size: 8vw;
-    }
     .text{
         top: 2vw;
     }
