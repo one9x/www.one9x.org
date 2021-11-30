@@ -38,16 +38,7 @@ body{
     padding-top: 5%;
     position: relative;
 }
-.text{
-    width: 90%;
-    position: absolute;
-    text-align: center;
-    font-size: 2vw;
-    font-family: 'Alex Brush';    
-    font-weight: BOLD;
-    padding-top: 3.5%;
-    padding-left: 1%;
-}
+
 .main-title {
     border: none;
     font-size: 200px;
@@ -166,10 +157,6 @@ footer {
         width: 95vw;   
     }
 
-    .text{
-        width: 85vw;
-        font-size: 6vw;
-    }
     .main-title {
         font-size: 160px;
     }
