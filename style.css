@@ -1,5 +1,9 @@
+body{
+    background-color: #2e2e2e;
+}
 .container{
     margin: 10px;
+    color: whitesmoke;
 }
 .heading {
     display: block;;
@@ -13,7 +17,7 @@
     text-align: right;
 }
 .icons{
-    color: black;
+    color: whitesmoke;
     margin-right:1%;
     font-size: 30px;
     position: relative;
@@ -34,15 +38,7 @@
     padding-top: 5%;
     position: relative;
 }
-.text{
-    width: 90%;
-    position: absolute;
-    text-align: center;
-    font-size: 2.6vw;
-    font-family: 'Alex Brush';    
-    font-weight: BOLD;
-    padding-top: 5%;
-}
+
 .main-title {
     border: none;
     font-size: 200px;
@@ -79,7 +75,7 @@
 }
 a{
     text-decoration: none;
-    color: maroon;
+    color: #C62828;
 }
 .project-title {
     font-size: 83px;
@@ -92,6 +88,7 @@ a{
 }
 .work{
     width: 45vw;
+    height: 12vw;
     border-radius: 5vw;
     float: right;
     overflow: hidden;
@@ -127,7 +124,7 @@ a{
 }
 .github{
     font-size: 40px;
-    color: black;
+    color: whitesmoke;
 }
 footer {
     text-align: center;
@@ -137,15 +134,16 @@ footer {
 .end{
     padding-top: 2vw;
     padding-bottom: 20px;
+    color: whitesmoke;
 }
 .end > a{
     text-decoration: none;
-    color: black;
+
 }
 
 @media screen and (max-width:1024px) {
     .text{
-        top: 2vw;
+        top: 3vw;
     }
     .main{
         vertical-align: middle;
@@ -159,10 +157,6 @@ footer {
         width: 95vw;   
     }
 
-    .text{
-        width: 85vw;
-        font-size: 6vw;
-    }
     .main-title {
         font-size: 160px;
     }
@@ -201,4 +195,24 @@ footer {
     .end{
         padding-bottom: 50px;
     }
+}
+@media (prefers-color-scheme: light) {
+        body{
+            background-color: whitesmoke;
+        }
+        .container{
+            color: black;
+        }
+            .icons{
+            color: black;
+        }
+        a{
+            color: maroon;
+        }
+        .github{
+            color: black;
+        }
+        .end{
+            color: black;
+        }
 }
