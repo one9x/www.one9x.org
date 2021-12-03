@@ -48,7 +48,6 @@ body{
 
 .description {
     font-size: 30px;
-    text-align: justify;
 }
 
 .description > .title {
@@ -75,7 +74,8 @@ body{
 }
 a{
     text-decoration: none;
-    color: #C62828;
+    color: turquoise;
+    text-decoration: none;
 }
 .project-title {
     font-size: 83px;
@@ -115,7 +115,7 @@ a{
     padding-top: 30px;
 }
 .vartalap-color{
-    color:#aee051;
+    color:turquoise;
 }
 .work-margin{    
     margin-left: 10px;
@@ -135,7 +135,8 @@ footer {
 }
 .end{
     padding-top: 2vw;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+
     color: whitesmoke;
 }
 .end > a{
@@ -154,23 +155,14 @@ footer {
     font-weight: bold;
     padding-bottom: 5px;
 }
-ul{
+.disclosure{
+    color:whitesmoke;
     font-size: 20px; 
     padding-left: 18px;
 }
-ul li{
-    color:whitesmoke;
-}
-li>a{
-    color: darkcyan;
-}
 @media screen and (max-width:1024px) {
-    .text{
-        top: 3vw;
-    }
     .main{
         vertical-align: middle;
-        overflow: hidden;
     }
     .bg-block {
         display: none;
@@ -219,7 +211,7 @@ li>a{
         font-size: 6vw;
     }
     .end{
-        padding-bottom: 50px;
+        padding-bottom: 18px;
     }
 }
 @media (prefers-color-scheme: light) {
