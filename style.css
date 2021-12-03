@@ -86,9 +86,11 @@ a{
     overflow-y: auto;
     color:darkcyan;
 }
+.row{
+    display:flex;
+}
 .work{
-    width: 45vw;
-    height: 16vw;
+    flex: 1;
     border-radius: 5vw;
     float: right;
     overflow: hidden;
