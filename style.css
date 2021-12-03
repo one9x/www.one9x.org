@@ -48,7 +48,7 @@ body{
 
 .description {
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
 }
 
 .description > .title {
@@ -86,9 +86,11 @@ a{
     overflow-y: auto;
     color:darkcyan;
 }
+.row{
+    display:flex;
+}
 .work{
-    width: 45vw;
-    height: 16vw;
+    flex: 1;
     border-radius: 5vw;
     float: right;
     overflow: hidden;
@@ -133,7 +135,7 @@ footer {
 }
 .end{
     padding-top: 2vw;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: whitesmoke;
 }
 .end > a{
@@ -141,6 +143,27 @@ footer {
 
 }
 
+.policies{
+    padding-left: 30px; 
+    padding-bottom: 20px;
+    color:whitesmoke;
+}
+.policies>h4{
+    color:white; 
+    font-size: 22px; 
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+ul{
+    font-size: 20px; 
+    padding-left: 18px;
+}
+ul li{
+    color:whitesmoke;
+}
+li>a{
+    color: darkcyan;
+}
 @media screen and (max-width:1024px) {
     .text{
         top: 3vw;
@@ -172,6 +195,9 @@ footer {
     .project-title{
         font-size: 15vw;
     }
+    .row{
+        display: block;
+    }
     .work{
         width: 90%;
         height: auto;
@@ -190,7 +216,7 @@ footer {
         padding-top: 15px;
     }
     .github, .vartalap-links, .links{
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .end{
         padding-bottom: 50px;
@@ -214,5 +240,12 @@ footer {
         }
         .end{
             color: black;
+        }
+        .policies{
+            padding-left: 30px; 
+            padding-bottom: 20px;
+        }
+        .policies>h4{
+            color:black;
         }
 }
