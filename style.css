@@ -88,7 +88,7 @@ a{
 }
 .work{
     width: 45vw;
-    height: 12vw;
+    height: 16vw;
     border-radius: 5vw;
     float: right;
     overflow: hidden;
@@ -190,7 +190,7 @@ footer {
         padding-top: 15px;
     }
     .github, .vartalap-links, .links{
-        font-size: 8vw;
+        font-size: 5vw;
     }
     .end{
         padding-bottom: 50px;
