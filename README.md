@@ -1,6 +1,6 @@
-## Welcome to [One9x](https://www.one9x.org)
+## Welcome to [One9x Org](https://www.one9x.org)
 
-One9x is an non-profit organization, with the goal of developing open source alternatives of commonly used applications.
+One9x Org is an open source organization, with the goal of developing open source alternatives of commonly used applications.
 
 
 ## Projects
